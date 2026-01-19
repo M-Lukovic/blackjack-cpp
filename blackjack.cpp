@@ -182,7 +182,8 @@ int main() {
             if (p >= 21) break;
 
             cout << "ACTION: [h] Hit | [s] Stand: ";
-            char choice; cin >> choice;
+            char choice; 
+            cin >> choice;
             
             if (choice == 'h') playerHand.push_back(deck.drawCard());
             else playerActive = false;
